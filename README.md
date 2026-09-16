@@ -20,7 +20,7 @@ Det er kun *en person* i gruppen som skal utføre *Use as template* på startkod
 
 Start-koden ligger i prosjekt og er organisert slik bygge-systemet Maven automatisk kan brukes til å kompilere koden og kjøre test i GitHub-skyen. 
 
-Dere skal derfor bruke *File* -> Open* i IntelliJ og navigere ned i mappen der dere klonet ned startkoden i Steg 1.
+Dere skal derfor bruke *File -> Open* i IntelliJ og navigere ned i mappen der dere klonet ned startkoden i Steg 1.
 
 Klassene `Tabeller.java` og `Matriser.java` inneholder starten på metodene dere skal implementere i oppgavene. Disse finnes under `src/main/java` i prosjektet.
 
@@ -189,5 +189,5 @@ Når alle metoder i oppgave 4 og 5 (og evt. 6) fungerer dvs. alle enhets-test pa
 
 Når koden er pushet opp på GitHub Gå inn under *Actions*. Sjekk at den automatisk testen som blir kjørt når du legger opp koden har et grønt tick på seg. 
 
-Husk også å levere lenke til GitHub oppbevsaringsplassen inn på Canvas.
+Husk også å levere lenke til GitHub oppbevaringsplassen inn på Canvas.
 
