@@ -35,7 +35,7 @@ public class Tabeller {
 			sum += num;
 		}
 
-		return sum
+		return sum;
 	}
 
 	// d)
@@ -43,7 +43,7 @@ public class Tabeller {
 
 		for (int item : tabell) {
 			if (item == tall){
-				return true
+				return true;
 			}
 		}
 		return false;
