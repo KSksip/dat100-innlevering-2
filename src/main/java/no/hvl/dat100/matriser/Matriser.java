@@ -31,10 +31,17 @@ public class Matriser {
 
 	// c)
 	public static int[][] skaler(int tall, int[][] matrise) {
-		
-		// TODO
-		throw new UnsupportedOperationException("Metoden skaler ikke implementert");
-	
+		int length = matrise.length;
+		int height = matrise[0].length;
+		int[][] result = new int[length][height];
+
+		for(int i = 0; i < matrise.length; i++){
+			for (int j = 0; j < matrise[i].length; j++) {
+				result[i][j] = matrise[i][j] * tall;
+			}
+		}
+
+		return result;
 	}
 
 	// d)
