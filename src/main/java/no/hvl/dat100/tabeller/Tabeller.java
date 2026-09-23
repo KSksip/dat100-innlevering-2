@@ -53,7 +53,7 @@ public class Tabeller {
 	public static int posisjonTall(int[] tabell, int tall) {
 		
 		for (int i = 0; i < tabell.length; i++) {
-			if (item == tabell[i]){
+			if (tall == tabell[i]){
 				return i;
 			}
 		}
@@ -63,8 +63,11 @@ public class Tabeller {
 	// f)
 	public static int[] reverser(int[] tabell) {
 
-		// TODO
-		throw new UnsupportedOperationException("Metoden reverser ikke implementert");
+		int[] result = new int[tabell.length];
+		for (int i = 0; i < tabell.length; i++) {
+			result[tabell.length - 1 - i] = tabell[i];
+		}
+		return result;
 	}
 
 	// g)
